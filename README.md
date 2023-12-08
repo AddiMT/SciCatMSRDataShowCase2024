@@ -23,37 +23,39 @@ studies. Scientific versus nonscientific software.
 Description:
 The provided dataset includes several columns with various types
 of information. Each row in the dataset represents a unique project.
-The details of the columns can be seen in Table ??. Finally, our
+The details of the columns can be seen in Table 1. Finally, our
 dataset is available online in the form of a Pickle file (in the repo: SciCat.pkl) and Certain
 statistics are shown in Table 2.
 
 
 ### Table 1
 
-| **Field Name**             | **Description**                                                                 |
-|----------------------------|---------------------------------------------------------------------------------|
-| ProjectID                  | A unique identifier for each project.                                           |
-| url                        | A column for the URL of the project, likely on GitHub.                          |
-| isScientificAppSoftware    | A boolean column indicating whether the project is scientific application software. |
-| mentionsPaperOrFunding     | Indicates if the project mentions a paper or funding.                           |
-| isResearchSoftware         | A boolean field to specify if the project is research software.                 |
-| isScienceSupportSoftware   | Indicates whether the software supports scientific research.                    |
-| keywords                   | A list of keywords associated with the project.                                 |
-| shortdescription           | A brief description of the project.                                             |
-| fullanswer                 | A longer, more detailed description or answer related to the project.           |
-| NumForks                   | Number of forks of the project repository.                                      |
-| AuthorsGender              | Provides information on the gender distribution of the project's authors.       |
-| NumCommits                 | The total number of commits made in the project.                                |
-| NumBlobs                   | The number of blobs (binary large objects) in the project.                      |
-| CodeLanguages              | Lists the programming languages used in the project.                            |
-| NumActiveMon               | The number of active months of the project.                                     |
-| LatestCommitDate           | The date of the latest commit.                                                  |
-| EarliestCommitDate         | The date of the earliest commit.                                                |
-| CommunitySize              | Size of the community involved in the project.                                  |
-| blobId                     | Unique identifier for the blob in the project.                                  |
-| commitID                   | Unique identifier for the commit in the project.                                |
+| Field Name              | Description                                               |
+|-------------------------|-----------------------------------------------------------|
+| ProjectID               | A unique identifier for each project.                     |
+| url                     | A column for the URL of the project, likely on GitHub.   |
+| isScientificAppSoftware | A boolean column indicating whether the project is scientific application software. |
+| mentionsPaperOrFunding  | Indicates if the project mentions a paper or funding.     |
+| isResearchSoftware      | A boolean field to specify if the project is research software. |
+| isScienceSupportSoftware| Indicates whether the software supports scientific research. |
+| keywords                | A list of keywords associated with the project.            |
+| shortdescription        | A brief description of the project.                        |
+| fullanswer              | A longer, more detailed description or answer related to the project. |
+| NumForks                | Number of forks of the project repository.                 |
+| NumStars                | Number of stars on the project repository.                |
+| NumFiles                | Number of files in the project repository.                |
+| NumAuthors              | Number of Authors for the project repository.             |
+| AuthorsGender           | Provides information on the gender distribution of the project's authors. |
+| NumCommits              | The total number of commits made in the project.          |
+| NumBlobs                | The number of blobs (binary large objects) in the project. |
+| CodeLanguages           | Lists the programming languages used in the project.      |
+| NumActiveMon            | The number of active months of the project.               |
+| LatestCommitDate        | The date of the latest commit.                            |
+| EarliestCommitDate      | The date of the earliest commit.                          |
+| CommunitySize           | Size of the community involved in the project.            |
+| blobId                  | Unique identifier for the blob in the project.            |
+| commitID                | Unique identifier for the commit in the project.          |
 
-*Description of Data Fields in the dataset*
 
 ### Table 2
 
