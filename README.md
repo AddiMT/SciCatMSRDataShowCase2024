@@ -24,7 +24,7 @@ Description:
 The provided dataset includes several columns with various types
 of information. Each row in the dataset represents a unique project.
 The details of the columns can be seen in Table 1. Finally, our
-dataset is available online in the form of a Pickle file (in the repo: SciCat.pkl) and Certain
+dataset is available online in the form of a Pickle file (in the repo: SciCatDataset.tar.gz) and Certain
 statistics are shown in Table 2.
 
 
